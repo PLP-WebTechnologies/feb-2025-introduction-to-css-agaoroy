@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+}
+.wrapper{
+    margin-top: 2rem;
+    width: 25rem;
+    height: 35rem;
+    margin-left: 20rem;
+    background: #fff;
+    
+
+}
+.wrapper h1{
+    text-align: center;
+}
+.wrapper .input-type input{
+    margin: .6rem;
+    width: 90%;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.wrapper .radio{
+    margin-left: 9rem;
+}
+.wrapper .btn button{
+    width: 12rem;
+    height: 3rem;
+    margin-left: 6rem;
+background: rgb(238, 139, 139);
+border: none;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>my css</title>
+        <div class="wrapper">
+            <form action="">
+                <h1>registration</h1>
+
+                <div class="input-type">
+                    <input type="text" placeholder="name" required>
+                </div>
+                <div class="input-type">
+                    <input type="email" placeholder="input your email" required>
+                </div>
+                <div class="input-type">
+                    <input type="password" placeholder="input password" required>
+                </div>
+                <div class="input-type">
+                    <input type="password" placeholder="confirm password" required>
+                </div>
+                <div class="input-type">
+                    <label for=""></label>
+                    <input type="date" placeholder="" required>
+                </div>
+                <div class="radio">
+                    <p>gender</p>
+                    <input type="radio">
+                    <label for="">male</label><br>
+                    <input type="radio">
+                    <label for="">female</label>
+                </div>
+                <div class="btn">
+                    <button type="submit">submit</button>
+                </div>
+               
+
+                
+            </form>
+        </div>
+  
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
